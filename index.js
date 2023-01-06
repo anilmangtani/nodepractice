@@ -12,7 +12,7 @@ app.get('/number',(req, res)=>{
 
 app.post('/create',(req,res)=>{
     console.log(req.body);
-    res.send("User Created again");
+    res.send("User again");
 })
 
 
